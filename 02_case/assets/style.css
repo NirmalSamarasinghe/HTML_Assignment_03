@@ -25,9 +25,16 @@
     font-family: Arial, sans-serif;
     display: flex;
 }
+.section>div>div{
+    background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
 
 .sidebar {
-    background-color: #4c0181;
+    background-color: #8c00ef;
     color: #fff;
     width: 10%;
 }
@@ -40,10 +47,26 @@
     color: #fff;
 }
 
-#text {
-    padding-left: 20px;
-    flex: 1;
-}
+/*section{*/
+/*    position: absolute;*/
+/*}*/
+/*div > section {*/
+/*    position: relative;*/
+/*    top: 105px;*/
+/*    left: 6px;*/
+/*    margin-bottom: 100px;*/
+
+/*}*/
+/*body > div > section > img {*/
+/*    border: 1px solid green;*/
+/*    width: calc((100vw)/3);*/
+
+/*}*/
+
+/*#text {*/
+/*    padding-left: 20px;*/
+/*    flex: 1;*/
+/*}*/
 
 footer{
     background-color: darkgray;
@@ -52,3 +75,4 @@ footer{
     overflow: auto;
     height: 5%;
 }
+

@@ -1,0 +1,64 @@
+section>div:first-child{
+    height: 50px;
+
+}
+section>div:first-child>span{
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    font-weight: bold;
+}
+section>div:nth-child(2){
+    height: calc(100vh - 50px);
+    position: relative;
+
+}
+section>div:nth-child(2)>span{
+    width: fit-content;
+    height:fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+/*section{*/
+/*    position: sticky;*/
+/*    top: 0;*/
+/*}*/
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+section:first-child>div:first-child{
+    background: red;
+}
+section:nth-child(2)>div:first-child{
+    background: blue;
+}
+section:nth-child(2)>div:nth-child(2){
+    background: lightblue;
+}
+section:nth-child(3)>div:first-child{
+    background: orangered;
+}
+section:nth-child(3)>div:nth-child(2){
+    background: gray;
+}
+section:nth-child(4)>div:first-child{
+    background:green;
+}
+section:nth-child(4)>div:nth-child(2){
+    background: darkred;
+}
